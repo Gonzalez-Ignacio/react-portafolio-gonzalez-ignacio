@@ -3,40 +3,39 @@
 export const links = [
 	{
 		name: "Inicio",
-		path: "",
+		hash: "inicio",
 	},
 	{
 		name: "Perfíl",
-		path: "about",
+		hash: "perfil",
 	},	
 	{
 		name: "Proyectos",
-		path: "projects",
+		hash: "projectos",
 	},
 	{
 		name: "Habilidades",
-		path: "skills",
+		hash: "skills",
 	},
 	{
 		name: "Contacto",
-		path: "contact",
+		hash: "contacto",
 	},
 ];
 
-export const skillsData = [
-	"HTML",
-	"CSS",
-	"JavaScript",
-	"TypeScript",
-	"React",
-	"Node.js",
-	"Nest.js",
-	"Express",
-	"Git",
-	"Tailwind",
-	"PostgreSQL",
-	"TypeORM",
+
+export const softSkillsData = [
+	"Trabajo en equipo",
+	"Adaptabilidad",
+	"Pensamiento Critico",
 ];
+// "HTML",
+// 	"CSS",
+// 	"JavaScript",
+// 	"React",
+// 	"Cypress",
+// 	"Git",
+// 	"Tailwind",
 
 // export const projectsData = [
 // 	{

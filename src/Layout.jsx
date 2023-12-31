@@ -6,7 +6,7 @@ export default function Layout() {
     return (
         <section className="w-full h-full p-0">
             <Navbar />
-            <main className="bg-[#131627] text-gray-950 relative">
+            <main className="bg-primary text-gray-950 relative">
                 <Outlet />
             </main>
 

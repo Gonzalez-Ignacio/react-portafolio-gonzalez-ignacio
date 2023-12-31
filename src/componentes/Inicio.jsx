@@ -1,16 +1,16 @@
 import React from "react";
 import "./../css/Inicio.css"
 
-export default function Inicio() {
+export default function Inicio({ id }) {
     return (
-        <section className="pt-20 lg:pt-0 grid justify-center" id="Inicio">
+        <section className="pt-20 lg:pt-0 grid justify-center" id={id}>
             <div className="container px-5 py-5">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2  items-center">
                     <div className="col-span-1 md:text-left text-center">
                         {/* Header text content */}
-                        <div className="text-center lg:text-left">
+                        <div className="text-center lg:text-left grid gap-10">
                             <h1 className="text-5xl font-bold mb-4">
-                                <span className="text-gradient inline-block">
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primaryGradient-start to-primaryGradient-end font-bold inline-block">
                                     {" "}
                                     Ignacio González{" "}
                                 </span>
