@@ -4,6 +4,7 @@ import Perfil from "../componentes/Perfil";
 import { useLocation } from "react-router-dom";
 import Navbar from "../componentes/Navbar";
 import Skills from "../componentes/Skills";
+import Contacto from "../componentes/Contacto";
 
 export default function Home() {
     const location = useLocation();
@@ -31,11 +32,12 @@ export default function Home() {
     }, [location.pathname]);
 
     return (
-        <>
+        <div className="pb-20">
             <Navbar activeSection={activeSection} />
             <Inicio id={'inicio'} />
             <Perfil id={'perfil'} />
             <Skills id={'skills'} />
-        </>
+            <Contacto id={'contacto'} />
+        </div>
     );
 }

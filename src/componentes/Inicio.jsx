@@ -22,7 +22,7 @@ export default function Inicio({ id }) {
                                 </h3>
                             </div>
                             <div className="space-y-3">
-                                <button className="bg-primary text-white py-2 px-4 rounded">
+                                <button className="bg-secondary text-white py-2 px-4 rounded-xl">
                                     <a
                                         href="./descargas/Gonzalez-Ignacio-Cv.pdf"
                                         download
