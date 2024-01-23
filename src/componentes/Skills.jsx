@@ -9,7 +9,7 @@ import {
     IconJs,
     IconReact,
 } from "./icons/Iconos";
-import iconCypress from "../assets/Icon-Cypress.png"
+import iconCypress from "../assets/icon/Icon-Cypress.png"
 
 export default function Skills() {
     return (

@@ -5,8 +5,8 @@ export default function Navbar({ activeSection }) {
     return (
         <header className="z-[999] relative w-full">
             <nav className="w-full justify-center flex fixed md:top-[1.7rem] md:h-[initial]">
-                <div className=" h-[4.5rem]  w-full rounded-none  bg-gray-950 bg-opacity-75 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] md:top-6 md:h-[3.25rem] md:w-[45rem] md:rounded-full  ">
-                    <ul className="flex  h-full flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-white md:w-[initial] md:flex-nowrap gap-5">
+                <div className=" h-[4.5rem]  w-full rounded-none  bg-gray-900 bg-opacity-40  backdrop-blur-[3rem]  md:top-6 md:h-[3.25rem] md:w-[45rem] md:rounded-full border-black/40  ">
+                    <ul className="flex  h-full flex-wrap items-center justify-center gap-y-1  font-medium text-white md:w-[initial] md:flex-nowrap gap-5">
                         {links.map((link) => (
                             <li key={link.name}>
                                 <a

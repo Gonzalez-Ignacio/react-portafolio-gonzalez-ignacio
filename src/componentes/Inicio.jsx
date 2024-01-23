@@ -1,5 +1,6 @@
 import React from "react";
-import "./../css/Inicio.css"
+import "./../css/Inicio.css";
+import miFoto from "./../assets/perfil/gonzalez-ignacio-removebg-preview.png";
 
 export default function Inicio({ id }) {
     return (
@@ -39,10 +40,10 @@ export default function Inicio({ id }) {
                         {/* Header profile picture */}
                         <div className="flex justify-center md:justify-end mt-5 ms-5 ps-5 md:mt-0">
                             <div className="profile">
-                                {/* 
-                            <img className="profile-img" src="FOTO" alt="Mi Foto" FOTOO/> 
-                            Puedes descomentar y reemplazar 'FOTO' y 'FOTOO' con la URL y el texto alternativo adecuados.
-                        */}
+                                <img
+                                    src={miFoto}
+                                    alt="Mi Foto"
+                                />
                             </div>
                         </div>
                     </div>

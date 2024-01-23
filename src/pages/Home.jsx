@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../componentes/Navbar";
 import Skills from "../componentes/Skills";
 import Contacto from "../componentes/Contacto";
+import Proyectos from "../componentes/Proyectos";
 
 export default function Home() {
     const location = useLocation();
@@ -13,13 +14,14 @@ export default function Home() {
     useEffect(() => {
         const handleScroll = () => {
             const sections = document.querySelectorAll("section");
+            const visibility = 0.5;
 
             sections.forEach((section) => {
                 const rect = section.getBoundingClientRect();
 
                 if (
-                    rect.top >= 0 &&
-                    rect.bottom <= window.innerHeight
+                    rect.top <= window.innerHeight * visibility &&
+                    rect.bottom >= window.innerHeight * (1 - visibility)
                 ) {
                     setActiveSection(section.id);
                 }
@@ -36,6 +38,7 @@ export default function Home() {
             <Navbar activeSection={activeSection} />
             <Inicio id={'inicio'} />
             <Perfil id={'perfil'} />
+            <Proyectos id={'proyectos'} />
             <Skills id={'skills'} />
             <Contacto id={'contacto'} />
         </div>

@@ -4,7 +4,7 @@ import { IconGitHub, IconLinkedIn } from "./icons/Iconos";
 export default function Contacto({id}) {
     return (
         <section
-            className="container mx-auto bg-secondary rounded-xl text-white text-2xl py-5"
+            className="container mx-auto bg-secondary rounded-xl text-white text-2xl mt-8 py-5"
             id={id}
         >
             <div className="text-center my-3">
@@ -18,7 +18,7 @@ export default function Contacto({id}) {
                 <div className=" flex justify-center gap-3 mb-5">
                     <a
                         className="text-blue-900"
-                        href="https://www.linkedin.com/in/ignacio-gonz%C3%A1lez-899b7b215/"
+                        href="https://www.linkedin.com/in/ignacio-l-gonzalez"
                         target="_blank"
                     >
                         <IconLinkedIn className={"h-12 w-12"} />
