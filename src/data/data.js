@@ -42,7 +42,7 @@ export const projectsData = [
 			"Esta es mi propia página en donde junto a mi colega realizamos en React una web en la que la usaremos para que nuestros clientes puedan pedirnos realizar una web. Aquí, ellos podrán ver en una seccion de plantillas donde estan todas las paginas de nuestros clientes y otros plantillas/modelos de paginas. ",
 		tags: ["Html", "Css", "Bootstrap", "JavaScript"],
 		imageUrl: nnSolucionWeb,
-		link:'https://colormemakeup.art/'
+		link:'https://nnsolucionweb.com/'
 	},
 	{
 		title: "Colorme-Makeup",
@@ -66,7 +66,7 @@ export const projectsData = [
 			"Este proyecto forma parte del curso de UTN-BA-Multiplícate-2.0. En este curso profundice mis conocimientos y realice mi primer carrito de compras",
 		tags: ["Html", "Css", "Bootstrap", "JavaScript"],
 		imageUrl: restauranteChino,
-		link:'https://grupo8-argentina-programa.vercel.app/'
+		link:'https://gonzalez-ignacio.github.io/BA-UTN/'
 	},
 	{
 		title: "Todo-List UTN-AP-4.0",
@@ -82,6 +82,6 @@ export const projectsData = [
 			"Esta página web fué mi comienzo en el mundo de la programación. Mi primer proyecto y trabajo en equipo en el curso de Argentina Programa 4.0-UTN.  ",
 		tags: ["Html", "Css", "Bootstrap", "JavaScript"],
 		imageUrl: restauranteGorgory,
-		link:'https://libreando.ar/'
+		link:'https://facucugliari.github.io/'
 	},
 ];
